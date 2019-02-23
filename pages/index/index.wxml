@@ -23,5 +23,9 @@
 </template>
 <include src='/pages/template/tem.wxml' />
 <!-- 组件开发 --> 
+<<<<<<< HEAD
 <view></view>
+=======
+<text></text>
+>>>>>>> 63666041919ca3bca7cdc3cb2a8c20e8b4f55033
 
