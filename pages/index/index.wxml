@@ -22,5 +22,5 @@
 <template is='tem' data="{{age:18}}">
 </template>
 <include src='/pages/template/tem.wxml' />
-<!-- 组件开发 -->
+<!-- 组件开发 --> 
 
