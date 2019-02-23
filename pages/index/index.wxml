@@ -23,4 +23,5 @@
 </template>
 <include src='/pages/template/tem.wxml' />
 <!-- 组件开发 --> 
+<view></view>
 
