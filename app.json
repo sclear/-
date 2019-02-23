@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tem/tem"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "彩虹",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "gray",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "子页面",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  }
+}

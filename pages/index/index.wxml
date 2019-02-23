@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<import src='/pages/tem/tem.wxml' />
+<view class='text-{{na}}'>红色字体</view>
+<!-- 动态 class 可拼接-->
+<view wx:if='{{!show}}'>show</view>
+<!-- 条件渲染 -->
+<view>{{show}}</view>
+<!-- 渲染数据 -->
+<block>1</block>
+<!-- 可做数据判断 不会渲染 -->
+<view wx:for="{{ary}}" wx:for-item='it' wx:for-index='idx' wx:key='this'>
+  {{idx}}
+  {{it}}
+</view>
+<!-- 列表渲染 改其变量名(index item) key值  -->
+<template name='vs'>
+  <view>{{txt}}</view>
+</template>
+<template is='vs' data='{{txt:111000}}'>
+</template>
+
+<template is='tem' data="{{age:18}}">
+</template>
+<include src='/pages/template/tem.wxml' />
+<!-- 组件开发 -->
+

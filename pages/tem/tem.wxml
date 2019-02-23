@@ -1,0 +1,6 @@
+<!--pages/tem/tem.wxml-->
+<template name='tem'>
+  <view>
+    <text>我是组件代码哟{{age}}</text>
+  </view>
+</template>
